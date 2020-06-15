@@ -1,8 +1,8 @@
 # instacart-market-basket-analysis
 
-Instacart is an e-commerce company that concentrates in same-day grocery delivery and pick-up service in the U.S. and Canada).Dataset was obtained directly from instacart.com, and contains more than 3 million transactions generated from over 200,000 customer accounts within a year. The dataset is made up of 6 CSV files, including orders, products, aisles, departments, order_products__prior, and order_products__train.
+Instacart is an e-commerce company that concentrates in same-day grocery delivery and pick-up service in the U.S. and Canada). Dataset was obtained directly from instacart.com, and contains more than 3 million transactions generated from over 200,000 customer accounts within a year. The dataset is made up of 6 CSV files, including orders, products, aisles, departments, order_products__prior, and order_products__train.
 
-Followed a methodical approach in analyzing buying behaviour and purchase patterns by first performing a value-based customer
+Followed a methodical approach in analyzing customer buying behaviour and purchase patterns by first performing value-based customer
 segmentation using EFM (Engagement, Frequency, Monetary), a variation of the conventional RFM framework. Since no timestamps were 
 provided in the dataset, the level of engagement for each customer was measured as the average number of days between orders. Next,
 market basket analyis was performed to study prchase patterns - association rule mining done on 2 types of transaction data:<br/>
